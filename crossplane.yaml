@@ -15,5 +15,7 @@ spec:
   crossplane:
     version: ">=v1.7.0-0"
   dependsOn:
+    - provider: xpkg.dev-deba7a0e.u6d.dev/upbound/provider-gcp-storage
+      version: ">=v0.36.0"
     - provider: xpkg.dev-deba7a0e.u6d.dev/upbound/provider-family-gcp
       version: ">=v0.36.0"
