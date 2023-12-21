@@ -14,6 +14,6 @@ metadata:
 spec:
   crossplane:
     version: ">=v1.7.0-0"
-   dependsOn:
+  dependsOn:
     - provider: xpkg.upbound.io/upbound/provider-gcp
       version: ">=v0.37.0"
